@@ -1,3 +1,5 @@
+const img = "https://s3-alpha-sig.figma.com/img/a678/aed9/e259b9de82f3f0845448634759bf6f1f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JYcPANwMRq5AVmZKggczoNJfXx67q4fD51PtPWSGltMF0LDUUZ3C1vGPa~wMuwdd7WpnLm7auBjacwWHbwIzg6HwVlTX3I8zxE9b50nhlw7dAjUI4dwM9mNvod4QAEG5hcUL73VqTGHIqBUucIfCnD2vHR50cm7-ymvXtwJIk2j5dy9rU5rkLWhPWPKtHlDUni~wWYxxL~sqg5ea425j~HL2UXILw8iNd0Ggww6PMqwtB-8vPjobfeaShjT~I3gh8c1oGZ4vGySra4smPi98soMVMLPCaar0F1Ft~LRZslNQMQ2G7~yJWF9C8dayN1XtBmYgh2uhnUsfn18T~1vmjQ__"
+
 
 export const user_list = [
     {
@@ -288,5 +290,5 @@ export const user_list = [
       "city": "Surat",
       "contact_number": "9876548876"
     }
-  ]
+  ].map(user => ({ ...user, image: img }));
  
