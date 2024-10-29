@@ -35,7 +35,8 @@ export const SearchResults = () => {
   };
 
   return (
-    <div style={{ marginTop: "110px" }} className="main-search-result">
+    
+    <div style={{ marginTop: "110px", backgroundColor: "white", width: "100%"  }} className="main-search-result">
       {filterUserListBySearch.length > 0 ? (
         <div className="main-search-result-b">
           {filterUserListBySearch.map((user, index) => (

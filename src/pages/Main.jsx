@@ -20,6 +20,7 @@ export const Main = () => {
       <Navbar />
 
       <Outlet />
+      <div style={{marginBottom: "20px"}}></div>
     </div>
   );
 };
