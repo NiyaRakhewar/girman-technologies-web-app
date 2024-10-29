@@ -1,4 +1,3 @@
-import { cn } from "./../../lib/utils"
 import * as React from "react"
 import "./../../styles/input.css"
 export interface InputProps

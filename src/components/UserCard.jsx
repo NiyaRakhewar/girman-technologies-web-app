@@ -1,10 +1,7 @@
 // src/components/UserCard.js
 import React from "react";
 import {
-  Card,
-  CardHeader,
-  CardFooter,
-  CardTitle,
+
   CardContent,
 } from "./ui/card";
 import "./../styles/UserCard.css";
@@ -44,7 +41,7 @@ export const UserCard = ({ user, onFetchDetails }) => {
               height: "60px",
             }}
           >
-            <CardTitle
+            <div
               style={{
                 color: "#09090B",
                 fontFamily: "Inter",
@@ -53,7 +50,7 @@ export const UserCard = ({ user, onFetchDetails }) => {
                 lineHeight: "38.73px",
                 textAlign: "left",
               }}
-            >{`${user.first_name} ${user.last_name}`}</CardTitle>
+            >{`${user.first_name} ${user.last_name}`}</div>
 
             <span style={{ display: "flex", alignItems: "center", gap: "2px",color: "#425763" }}>
               <FaLocationDot /> <p style={{color: "#425763"}}>{user.city}</p>

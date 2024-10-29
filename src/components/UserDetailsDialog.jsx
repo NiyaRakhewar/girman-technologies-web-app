@@ -1,14 +1,7 @@
 // src/components/UserDetailsDialog.js
 import React from "react";
 import "./../styles/dialog.css";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogClose,
-} from "./ui/dialog";
+
 
 export const UserDetailsDialog = ({ selectedUser, handleCloseDialog }) => (
   <div className="dialog-overlay">
