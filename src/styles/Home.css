@@ -1,0 +1,37 @@
+/* style.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem; /* Equivalent to my-32 */
+  
+     /* Equivalent to my-32 */
+  }
+  
+  .flex-column {
+    height: 254px;
+    width: 799px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px; /* Equivalent to gap-4 */
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem; /* Equivalent to gap-8 */
+  }
+  
+  .home-logo {
+    width: 180px; /* Equivalent to w-[180px] */
+    height: 120px; /* Equivalent to h-[120px] */
+  }
+  
+  .home-logo-name {
+    width: 552px; /* Equivalent to w-[552px] */
+    height: 120px; /* Equivalent to h-[120px] */
+  }
+  
+ 
