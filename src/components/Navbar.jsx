@@ -17,13 +17,13 @@ export const Navbar = () => {
       </div>
 
       {isResult ? (
-        <div className="nav-links"><Search /></div>
+        <div style={{width: "520px"}} className="nav-links"><Search /></div>
       ) : (
         <div className="nav-links">
-          <Link to="/" className="">Search</Link>
-          <Link to="https://girmantech.com" target="_blank" className="">Website</Link>
-          <Link to="https://www.linkedin.com/company/girmantech/" target="_blank" className="">LinkedIn</Link>
-          <a href="mailto:girish@girmantech.com" className="">Contact</a>
+          <Link to="/" style={{ textDecoration: "underline" , color: "blue"}} >Search</Link>
+          <Link to="https://girmantech.com" target="_blank" >Website</Link>
+          <Link to="https://www.linkedin.com/company/girmantech/" target="_blank" >LinkedIn</Link>
+          <a href="mailto:girish@girmantech.com" >Contact</a>
         </div>
       )}
     </nav>

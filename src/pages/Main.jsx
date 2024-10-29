@@ -6,10 +6,19 @@ import bgImage from "../assets/bg_image.png";
 export const Main = () => {
   return (
     <div
-      className="h-screen bg-slate-900 bg-cover bg-center overflow-hidden bg-gradient-to-b from-white to-[#B1CBFF] opacity-75"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      style={{
+        background: `linear-gradient(180deg, #FFFFFF 31%, #B1CBFF 100%), url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+        width: "100%",
+        display: "flex",
+
+        justifyContent: "center",
+      }}
     >
       <Navbar />
+
       <Outlet />
     </div>
   );

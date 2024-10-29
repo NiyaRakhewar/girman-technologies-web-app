@@ -1,40 +1,43 @@
 /* style.css */
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #FFFFFF;
-    padding: 4px;
-    height: 110px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-    position: relative; /* Allows the shadow to appear beneath */
-    z-index: 10; /* Ensures the navbar appears above other elements */
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  padding: 4px;
+  height: 110px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+}
+
   .logo-container {
     cursor: pointer;
   }
   
   .logo {
-    height: 62px; /* Adjusted to match className "h-10" in Tailwind */
+    height: 62px; 
     width: 220px;
   }
   
   .nav-links {
     display: flex;
     width: 552px;
-    gap: 42px; /* Adjusted for spacing between links */
+    gap: 42px; 
     color: black;
+    font-size: large;
   }
   
   .nav-links a {
-    text-decoration: none; /* Removes underline from links */
-    color: black; /* Default link color */
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; 
+    color: black; 
+    transition: color 0.3s ease; 
   }
   
   .nav-links a:hover {
-    color: #007BFF; /* Changes color on hover */
+    color: #007BFF; 
   }
-  
